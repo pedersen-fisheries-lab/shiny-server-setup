@@ -22,4 +22,4 @@ sudo gdebi shiny-server-1.5.17.973-amd64.deb
 
 # Start server
 systemctl status shiny-server.service
-cp -r test-app/ /srv/shiny-server/
+cp -r ~/shiny-server-setup/test-app/ /srv/shiny-server/
