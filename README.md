@@ -17,4 +17,14 @@ cp -r ~/shiny-server-setup/test-app/ /srv/shiny-server/
 
 4. Set up rules on Arbutus to let your IP throught the port. 
 
-5. Remember your shiny app may have additionnal package and or/system requirements. For packages, use `renv`. For system, make a custom script.
+5. Remember your shiny app may have additionnal package and or/system requirements. For packages, use `renv` (restore then isolate). For system, make a custom script.
+
+## Some useful system dependencies
+
+```
+# GDAL
+sudo apt-get install libgdal-dev
+
+# Udunits
+sudo apt-get install libudunits2-dev
+```
