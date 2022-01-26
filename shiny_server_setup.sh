@@ -30,5 +30,4 @@ echo 'Shiny server installed'
 # Start server
 echo 'Starting shiny server'
 systemctl status shiny-server.service
-cp -r ~/shiny-server-setup/test-app/ /srv/shiny-server/
 echo 'Setup done'
