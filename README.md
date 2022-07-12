@@ -6,7 +6,7 @@ The main resource for this setup is the [cloud quickstart guide](https://docs.al
 
 2. **Launch the VM**: follow the quickstart guide instructions (the currently running VM is named `shiny_server`). Choose the `shinyboot` booting volume (it's Ubuntu Focal), and the `p8-16gb` flavor (for maximum use of the resources available). Load the `def-pedersen-prod-network` and the `IPv6` networks onto the VM. If no booting volume is available, make sure that when you create one (see guide instructions) you only use half (max) of the maximum storage available so you can use the other half for creating a backup of the volume. 
 
-3. Associate the available floating IP to the new VM (navigate to Network -> Floating IPs).
+3. Associate the available floating IP to the new VM (navigate to Network -> Floating IPs). If you need to create one, refer once again to the guide to do so.
 
 *A note on network settings*: the guide has all the instructions necessary for setting up the network. A very key element is to make sure to set up the security rules for the IP of any computer from which you will want to ssh to the VM.
 
