@@ -10,7 +10,7 @@ The main resource for this setup is the [cloud quickstart guide](https://docs.al
 
 3. Associate the available floating IP to the new VM (navigate to Network -> Floating IPs). If you need to create one, refer once again to the guide to do so.
 
-4. Connect with address `user-name@the-floating-ip>`, currently it is `ubuntu@` 
+4. Connect with address `user-name@the-floating-ip>`, currently it is `ubuntu@206.12.100.5` 
 
 *A note on network settings*: the guide has all the instructions necessary for setting up the network. A very key element is to make sure to set up the security rules for the IP of any computer from which you will want to ssh to the VM.
 
