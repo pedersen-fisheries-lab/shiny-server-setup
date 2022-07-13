@@ -1,5 +1,7 @@
 ## Setup the VM on the Arbutus cloud
 
+server address example: http://206.12.100.5/DFO_SDM_Shiny_final/
+
 The main resource for this setup is the [cloud quickstart guide](https://docs.alliancecan.ca/wiki/Cloud_Quick_Start). The interface is Arbutus's [openstack](https://arbutus.cloud.computecanada.ca/).
 
 1. **Setup the ssh keys**: first, generate a key pair. The process is different for (Windows)[https://docs.alliancecan.ca/wiki/Generating_SSH_keys_in_Windows/en] and [Linux](https://docs.alliancecan.ca/wiki/Using_SSH_keys_in_Linux). Then, in openstack, import the key pair by navigating to the key pair tab on the left and following the guide's instructions. For the record, the key is currently named `arbutus_pedersen_key`, is stored [here](https://drive.google.com/file/d/154plUKqQ6PzAbSrD3wPQ_vkCSIWDbvD0/view?usp=sharing) with its passphrase (requires drive access). Only onw key pair per VM is allowed.
